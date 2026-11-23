@@ -1,0 +1,40 @@
+# 本地模型、数据与环境
+/models/
+/datasets/
+/envs/
+/cache/
+
+# 实验输出
+/results/
+/checkpoints/
+/outputs/
+/logs/
+/runs/
+/wandb/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# 编辑器本地配置
+/.vscode/
+
+# 环境变量与凭据
+.env
+.env.*
+!.env.example
+
+# 模型文件
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.gguf
+*.onnx
+
+*.log
